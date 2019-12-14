@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Function">
+<test name="login">
+<parameter name="browser" value="chrome"></parameter>
+<classes>
+<!--  <class name="Testnggggg.First_pract"></class> -->
+<class name="VdataProvider.options"></class> 
+</classes>
+</test>
+<test name="computer">
+<parameter name="browser" value="firefox"></parameter>
+<classes>
+<!--  <class name="Testnggggg.First_pract"></class> -->
+<class name="VdataProvider.options"></class> 
+</classes>
+</test>
+</suite>
